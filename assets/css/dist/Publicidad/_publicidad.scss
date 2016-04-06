@@ -1,0 +1,29 @@
+#banners{
+	img{
+		width: 100%;
+	}
+	#menu-gris{
+	background-color: $gris;
+	margin-bottom: $uno;
+	ul{
+		list-style-type: circle;
+	}
+	li{
+		display: inline;
+		button{
+			height: 2em;
+			background-color: black;
+			border:none;
+			border-radius: .3em;
+			color: $blanco;
+		}
+	}
+}
+	.aside{
+		margin-left: -180%;
+		width: 280%;
+	}
+	.aside1{
+		width: 280%;
+	}
+}

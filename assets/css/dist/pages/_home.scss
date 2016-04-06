@@ -1,0 +1,154 @@
+//
+.inline{
+	display:inline-block;
+}
+.width-100{
+	width:100%;
+}
+
+ul#minupol {
+    display: inline-flex;
+}
+#minupol li {
+    margin-left: 29px;
+
+}
+p.text-center {
+    font-size: -webkit-xxx-large;
+}
+img.img-responsive {
+    width: 100%;
+}
+.padding-top{
+	padding-top: 50px;
+}
+.padding-right{
+    padding-right: 2px;
+}
+.text-gray{
+    color:gray;
+    font-weight: 600;
+}
+.text-white{
+    color:white;
+}
+.text-color{
+    color:#E54747;
+}
+
+
+//---------------SLIDER--------------------
+.slider-nav div{ text-align: center; display: block}
+ 
+.slider-for div img,
+.slider-nav div img{width:100%; float:left;}
+ 
+.slider-for div h3,
+.slider-nav div h4{float:left; width: 100%}
+ 
+.slick-dots{bottom:-50px!important;}
+.slick-dots li button:before{font-size: 17px!important;}
+ 
+.slick-slider {
+    margin-bottom: 0px!important;
+}
+.slick-prev{left: -30px!important}
+ 
+.slick-prev:before,
+.slick-next:before{
+   color: #000!important;
+}
+//-----------ULTIMAS NOTICIAS----------
+.cont-ulnot {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.62);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.padding-right{
+	padding-right: 55px;
+}
+img.img-slider {
+    padding: 72px;
+}
+//-----------SUSCRIPCIÓN------------
+input[type="text"] {
+    width: 100%;
+}
+.bg-white{
+	background-color: white;
+	padding: 24px;
+}
+button#suscribe {
+    width: 100%;
+}
+//-----------AWEITA-----
+img#aweita {
+    width: 150px;
+}
+//nuestros blogueros
+a.AAR {
+    color: black;
+    text-decoration: underline;
+}
+a.LR {
+    color: #CD4844;
+    text-decoration: underline;
+}
+//botones
+i.fa.fa-google-plus {
+    color: #d9534f;
+}
+i.fa.fa-twitter {
+    color: #5bc0de;
+}
+i.fa.fa-facebook {
+    color: #337ab7;
+}
+//@mixin botones
+
+@mixin botones{
+    border-radius: 3px;
+    width: 33px;
+    height: 33px;   
+}
+button.facebook {
+    @include botones;
+    border-bottom: 4px solid #337ab7;
+   
+}
+button.twitter {
+    @include botones;
+    border-bottom: 4px solid #5bc0de;
+}
+button.googlep {
+    @include botones;
+    border-bottom: 4px solid #d9534f;
+}
+//----------------
+img.punto {
+    padding-right: 13px;
+}
+img#img-principal {
+    height: 634px;
+}
+p#text-principal {
+    font-size: 42px;
+    margin-top: -243px;
+    padding: 10px;
+    color:white;
+}
+p.text-2 {
+    font-size: 30px;
+    color: white;
+    margin-top: -156px;
+}
+.container-slider.well {
+    margin-top: 36px;
+    border-top: 9px solid #d9534f;
+}
+span.text-white.colum {
+    background-color: #D9534F;
+    font-size: 20px;
+    padding: 24px;
+    margin-left: 466px;
+}

@@ -1,0 +1,37 @@
+.inline{
+	display: inline-block;
+
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.text-center{
+	text-align: center;
+}
+.pull-right{
+	text-align: right;
+}
+.padd-3{
+	padding-left: 5%;
+}
+.marg-5{
+	margin-top:5%;
+}
+.marg-3{
+	margin-top:3%;
+}
+.largo{
+	height:100px !important;
+}
+
+	.img{
+	background: url("image/img_grid_principal.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50px;
+
+}

@@ -1,0 +1,11 @@
+/*Tamano letras*/
+@mixin estilos($color,$tamano,$weight){
+	color:$color;
+	font-size:$tamano;
+	font-weight: $weight;
+}
+
+.blog{
+	@include estilos(#F06141,2em,600);
+	
+}
